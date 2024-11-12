@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daryle-tan/api.git"
+  },
+  "author": "Daryle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daryle-tan/api/issues"
+  },
+  "homepage": "https://github.com/daryle-tan/api#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
